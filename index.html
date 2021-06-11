@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="profile" href="http://gmpg.org/xfn/11">
+  <link rel="pingback" href="http://hdaunois.fr/xmlrpc.php">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <title>God is in the details - hdaunois</title>
+
+  <link rel="canonical" href="http://hdaunois.fr/godisinthedetails">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Index - hdaunois">
+  <meta property="og:url" content="http://hdaunois.fr/godisinthedetails">
+  <meta property="og:site_name" content="hdaunois">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="God is in the details - hdaunois">
+
+  <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress.">
+
+  <link type="text/css" rel="stylesheet" href="css/common.css">
+
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/common.js?v=1.1"></script>
+
+</head>
+<body>
+<img id="imgLoader" src="img/loader.gif" class="imgLoader" alt=""/>
+
+<div id="content" class="hideFadeIn">
+  <div class="imgPlayer" id="imgPlayer">
+    <img src="img/player.svg" alt="Launch movie"/>
+  </div>
+  <video id="firstMoovie" class="firstMoovie">
+    <source src="media/begin_moovie.mp4" type="video/mp4">
+    <source src="media/begin_moovie.mp4" type="video/ogg">
+    Your browser does not support the video tag.
+  </video>
+  <video id="backgroundMovie" class="backgroundMovie" loop="">
+    <source src="media/background.mp4" type="video/mp4">
+    <source src="media/background.mp4" type="video/ogg">
+    Your browser does not support the video tag.
+  </video>
+
+  <a class="linkDiscover hideFadeIn" href="http://hdaunois.fr/" target="_blank">
+    <img src="img/discover_the_artist.png" alt=""/>
+    <img src="img/discover_the_artist.png" alt=""/>
+  </a>
+  <a id="linkInside" class="linkInside hideFadeIn" href="javascript:void(0);">
+    <img src="img/inside_the_details.png" alt=""/>
+  </a>
+  <!--<a id="linkBehind" class="linkBehind hideFadeIn" href="javascript:void(0);" >
+      <img src="img/behind_the_scene.png" alt="" />
+      <img src="img/behind_the_scene.png" alt="" />
+  </a>-->
+  <p id="pressSpaceTuto" class="writeMiddle hide">
+    PRESS THE touch “space key” <br/>
+    in order to see the next content
+  </p>
+
+  <p id="randomTuto" class="writeMiddle hide">
+    content will be seen randomly, <br/>
+    you will not see two times the same video <br/>
+    before finish all the content
+  </p>
+
+  <p id="escapeTuto" class="writeMiddle hide">
+    PRESS THE TOUCH "ECHAP KEY" <br/>
+    IN ORDER TO GO BACK TO THE HOME
+  </p>
+  <div id="blockGifRandom" class="hide">
+    <audio id="musicGif" src="media/musique_gif.aac"></audio>
+    <img id="imgGifRandom" src="" class="gifRandom " alt=""/>
+    <p class="moreInfo">More Info</p>
+    <div class="openInfo hideFadeIn">
+      <p id="titleMoreInfo" class="titleMoreInfo"></p>
+      <span class="cross"><img src="img/cross.png" alt=""/></span>
+      <p id="descriptionGif" class="descriptionGif"></p>
+    </div>
+  </div>
+  <div class="">
+
+  </div>
+  <div id="modal" class="modal hide">
+    <img src="img/behind_the_scene_modal.png" class="imgModalTitle" alt=""/>
+    <img src="img/cross.png" class="crossMobile" alt=""/>
+    <div class="blockModal">
+      <iframe id="behindPdf" class="behindPdf"
+              src="https://docs.google.com/viewer?url=http://godisinthedetails.hdaunois.com/img/pdf/behind_the_scene.pdf&embedded=true"></iframe>
+    </div>
+  </div>
+</div>
+</body>
+</html>

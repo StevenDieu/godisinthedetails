@@ -1,0 +1,346 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 14 mai 2017, 19:33:09
+    Author     : steven dieu
+*/
+@font-face {
+  font-family: 'BebasNeueBold';
+  src: url('font/BebasNeueBold.eot');
+  src: url('font/BebasNeueBold.otf') format('truetype'),
+  url('font/BebasNeueBold.woff') format('woff'),
+  url('font/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+  url('font/BebasNeueBold.svg#QuadrantaBold') format('svg');
+}
+
+@font-face {
+  font-family: 'BebasNeueRegular';
+  src: url('font/BebasNeueRegular.eot');
+  src: url('font/BebasNeueRegular.otf') format('truetype'),
+  url('font/BebasNeueRegular.woff') format('woff'),
+  url('font/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+  url('font/BebasNeueRegular.svg#QuadrantaBold') format('svg');
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  transition: all 700ms ease-in-out 0ms;
+  -moz-transition: all 700ms ease-in-out 0ms;
+  -webkit-transition: all 700ms ease-in-out 0ms;
+  background-color: #000;
+}
+
+#content {
+  height: 100%;
+}
+
+.imgPlayer {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  cursor: pointer;
+  z-index: 2;
+  filter: invert(1);
+}
+
+.imgPlayer img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.firstMoovie {
+  position: absolute;
+  z-index: 1;
+  object-fit: cover;
+  object-position: 100%;
+  width: 100%;
+  min-height: 100%;
+}
+
+.imgHome {
+  object-fit: cover;
+  height: 100%;
+  min-width: 100%;
+}
+
+.gifRandom {
+  object-fit: cover;
+  height: 100%;
+  min-width: 100%;
+}
+
+.linkDiscover, .linkInside, .linkBehind {
+  position: absolute;
+}
+
+.linkDiscover img, .linkInside img, .linkBehind img {
+  position: absolute;
+  margin: auto;
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.linkDiscover {
+  bottom: 42px;
+  right: 52px;
+  width: 241px;
+}
+
+.linkInside {
+  bottom: 42px;
+  left: 52px;
+  margin: auto;
+}
+
+.linkBehind {
+  bottom: 42px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  width: 235px;
+}
+
+.writeMiddle {
+  position: absolute;
+  font-family: 'BebasNeueBold';
+  top: 0;
+  color: #ffffff;
+  text-align: center;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30pt;
+  letter-spacing: 5px;
+  background: rgba(0, 0, 0, 0.44);
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.57);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+}
+
+#imgLoader {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+  max-width: 400px;
+}
+
+.blockModal {
+  background: #1b1b1b;
+  max-width: 834px;
+  width: 100%;
+  max-height: 590px;
+  height: 100%;
+  margin: auto;
+}
+
+.imgModalTitle {
+  text-align: center;
+  max-width: 400px;
+  height: 370px;
+  left: 0;
+  top: 10px;
+}
+
+.behindPdf {
+  width: 100%;
+  height: 100%;
+}
+
+#blockGifRandom {
+  height: 100%;
+}
+
+.moreInfo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-family: 'BebasNeueBold';
+  color: #ffffff;
+  font-size: 30px;
+  padding: 0;
+  margin: 11px;
+  letter-spacing: 4px;
+  cursor: pointer;
+}
+
+.openInfo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  font-family: 'BebasNeueBold';
+  color: #ffffff;
+  font-size: 30px;
+  max-width: 800px;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 25px;
+}
+
+p.titleMoreInfo {
+  font-size: 24px;
+  letter-spacing: 4px;
+  margin: 0;
+  padding: 0 0 2px 0;
+  border-bottom: 2px solid;
+  text-align: center;
+  white-space: nowrap;
+  display: initial;
+  margin-right: 35px;
+}
+
+span.cross {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 25px 27px 0 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.cross img {
+  width: 19px;
+}
+
+p#descriptionGif {
+  font-size: 16pt;
+  text-transform: uppercase;
+  font-family: 'BebasNeueRegular';
+  letter-spacing: 3px;
+}
+
+.crossMobile {
+  display: none;
+}
+
+@media screen and (max-width: 920px) {
+  .linkDiscover {
+    bottom: 42px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+  }
+
+  .linkInside {
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    width: 238px;
+    height: 21px;
+  }
+
+  .linkBehind {
+    top: 42px;
+    bottom: inherit;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    width: 306px;
+    height: 23px;
+  }
+
+  .gifRandom {
+    width: 100%;
+  }
+
+  .imgModalTitle {
+    display: none;
+  }
+
+  .blockModal {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    height: initial;
+  }
+
+  .crossMobile {
+    display: block;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    right: 10px;
+  }
+
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.hideFadeIn {
+  opacity: 0;
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  -webkit-opacity: 0;
+  transition: opacity 0.35s ease 0s, transform 1s ease 0s;
+  -webkit-transition: all 700ms ease;
+  -moz-transition: all 700ms ease;
+  -ms-transition: all 700ms ease;
+  -o-transition: all 700ms ease;
+  z-index: -1
+}
+
+.showFadeIn {
+  opacity: 1;
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  -webkit-opacity: 1;
+  transition: opacity 0.35s ease 0s, transform 1s ease 0s;
+  -webkit-transition: all 700ms ease;
+  -moz-transition: all 700ms ease;
+  -ms-transition: all 700ms ease;
+  -o-transition: all 700ms ease;
+  z-index: 1
+}
+
+.backgroundMovie {
+  position: absolute;
+  z-index: -1;
+  object-fit: cover;
+  object-position: 100%;
+  width: 100%;
+  min-height: 100%;
+}

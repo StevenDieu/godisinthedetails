@@ -1,0 +1,183 @@
+[
+    {
+        "dir": 0,
+        "content": [
+            {
+                "chiffre": 1,
+                "titre": "Oh mon Léon, ",
+                "text": "Ta pose me laisse perplexe. Dans cette sobriété qui te caractérise, je ne vois aucun objet de plaisir. Aurais-tu trouvé ton salut dans la simplicité, où n’as- tu simplement pas le choix ?"
+            },
+            {
+                "chiffre": 2,
+                "titre": "À toi qui ne manque de tout ou qui ne manque de rien ",
+                "text": "En réalité, tu ne manques de rien et pourtant…Ce n’est pas le manque de richesses qui t’entourent mais tu sembles néanmoins et indéniablement seul. D’un geste répétitif, tu nous transmets ton ennui. Lorsque tu peux tout avoir, que te reste-t-il à obtenir ? "
+            }
+        ]
+    },
+    {
+        "dir": 1,
+        "content": [
+            {
+                "chiffre": 3,
+                "titre": "Moi Caméléon, ",
+                "text": "Je ressemble à tout le monde, et pourtant je suis unique, comment devenir moi-même, quand on m’apprend à penser comme tout le monde ?"
+            },
+            {
+                "chiffre": 4,
+                "titre": "Obscure tragédie",
+                "text": "Contrairement aux esclaves de l’antiquité nous sommes aujourd’hui devant une classe totalement asservi, qui ne le sait pas, ou plutôt qui ne veut pas le savoir."
+            }
+        ]
+    },
+    {
+        "dir": 2,
+        "content": [
+            {
+                "chiffre": 5,
+                "titre": "Oh morphé, ",
+                "text": "La servitude moderne est une servitude volontaire, consentie par la foule. Ils achètent eux même toutes les marchandises qui les assouvissent un peu plus."
+
+            },
+            {
+                "chiffre": 6,
+                "titre": "Subliminal ",
+                "text": "Il faut que le cerveau du téléspectateur soit disponible. Nos émissions ont pour vocation (...) de le divertir, de le détendre pour le préparer entre deux messages. "
+            }
+        ]
+    },
+    {
+        "dir": 3,
+        "content": [
+            {
+                "chiffre": 7,
+                "titre": "Journal d'un vieux dégueulasse (1969)",
+                "text": "L'individu parfaitement équilibré n'a pas toute sa raison."
+            },
+            {
+                "chiffre": 8,
+                "titre": "Regard de l’âme ",
+                "text": "D’une intensité à glaçer le sang. Ce regard plonge dans notre âme et nous invite à réfléchir sur nous-même. Pourquoi me regarde t’il ainsi ? Qu’ai-je fais de mal ? "
+            }
+        ]
+    },
+    {
+        "dir": 4,
+        "content": [
+            {
+                "chiffre": 9,
+                "titre": "La soif ",
+                "text": "La mort est raisonnable et mystérieuse, la vie est mystérieuse et déraisonnable."
+            },
+            {
+                "chiffre": 10,
+                "titre": "Sérénité morbide",
+                "text": "L’Homme est-il voué à s’autodétruire ? La portée de ces actes est elle réversible . L’instrument qui d’origine sert à détruire la forêt est la conséquence de la mort dans cette image. Malgré cela on ressent une réelle sérénitude dans le décor. J’entends souvent dire « il faut sauver la planète », mais la terre nous a précédées et elle nous survivra. C’est à l’homme de se sauver de lui-même"
+            }
+        ]
+    },
+    {
+        "dir": 5,
+        "content": [
+            {
+                "chiffre": 13,
+                "titre": "Simone de Beauvoir",
+                "text": "Ils se contentent de tuer le temps en attendant que le temps les tue."
+            },
+            {
+                "chiffre": 14,
+                "titre": "Toute la vie est une affaire de choix",
+                "text": "Confronté à une épreuve, l’homme ne dispose que de trois choix : combattre, ne rien faire ou fuir. Henri Laborit, Chirurgien, Médecin, Scientifique (1914-1995)"
+            }
+        ]
+    },
+    {
+        "dir": 6,
+        "content": [
+            {
+                "chiffre": 14,
+                "titre": "Oscar Wilde - Le Portrait de Dorian Gray",
+                "text": "Aimer, c’est se surpasser."
+            },
+            {
+                "chiffre": 15,
+                "titre": "Oh my dear ",
+                "text": "L’amour est plus beau quand il est impossible, l’amour le plus absolu n’est jamais réciproque. Les êtres qui s’aiment le plus sont ceux qui ne s’aimeront jamais.Frédéric Beigbeder"
+            }
+        ]
+    },
+    {
+        "dir": 7,
+        "content": [
+            {
+                "chiffre": 17,
+                "titre": "Schyzophrénie",
+                "text": "On se drogue parce que la vie est assommante, que les gens sont fatigants, qu’il n’y a plus tellement d’’idées majeures à défendre, qu’on manque d’entrain.Françoise Sagan"
+            },
+            {
+                "chiffre": 18,
+                "titre": "L’oeil",
+                "text": "Il n’y a que les esprits légers pour ne pas juger sur les apparences. Le vrai mystère du monde est le visible, et non l’invisible."
+            }
+        ]
+    },
+    {
+        "dir": 8,
+        "content": [
+            {
+                "chiffre": 19,
+                "titre": "Jacques Lacan",
+                "text": "Le désir de l'homme trouve son sens dans le désir de l'autre."
+            },
+            {
+                "chiffre": 20,
+                "titre": "Sugar Baby",
+                "text": "Paradoxalement c’est au nombre de ses interdits et non pas de ses permissions que l’on reconnaît une société pervertie. Ainsi une société qui interdit la prostitution avoue son penchant pour la prostitution. Une société qui interdit la drogue avoue son penchant pour la drogue. Une société qui interdit le meurtre avoue son penchant pour le sang. Philippe Bartherotte"
+            }
+        ]
+    },
+    {
+        "dir": 9,
+        "content": [
+            {
+                "chiffre": 9,
+                "titre": "Money Money Money",
+                "text": "Tout obstacle Naturel ou Humain doit être détruit."
+            },
+            {
+                "chiffre": 25,
+                "titre": "De la servitude des temps Moderne",
+                "text": "La décor de ce monde devient la prison dans laquelle ils leur faudra vivre, un monde sordide qui porte en lui la misère du mode de production dominant."
+            }
+        ]
+    },
+    {
+        "dir": 10,
+        "content": [
+            {
+                "chiffre": 2,
+                "titre": "Doux rêve",
+                "text": "La liberté appartient à ceux qui l’ont conquise. André Malraux"
+            },
+            {
+                "chiffre": 16,
+                "titre": "Urban",
+                "text": "L’organisation de la vie humaine en société de  plus en plus complexe, dépasse parfois la volonté première de réponses à des besoins en l’isolant dans un environnement tout aussi austère que le milieu naturel dont il a voulu s’extraire"
+            }
+        ]
+    },
+    {
+        "dir": 11,
+        "content": [
+            {
+                "chiffre": 21,
+                "titre": "L’or Noir",
+                "text": "L'emploi des huiles minérales a fait passer un fleuve de feu sur nos palaiset sur les témoins de notre histoire. Le pétrole est devenu un dieu: il a ses dévots, il a un culte. Maxime Du Camp (1869-1875)"
+            },
+            {
+                "chiffre": 22,
+                "titre": "Solitude",
+                "text": "Fragilité de l’esprit humain qui alterne ses besoins de solitude à ceux de la socialisation. Le syndrome d’affectivité est à la fois note talon d’Achille et notre force de créativité pour nous dépasser."
+            }
+        ]
+    }
+]
