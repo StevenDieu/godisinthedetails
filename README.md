@@ -1,6 +1,6 @@
 # godisinthedetails
 
-For project 'KICK OUT THE  BAD THINGS' 
+For project 'God is in the details' 
 
 Designer/Client : Hugo Daunois
 
